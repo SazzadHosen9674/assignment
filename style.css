@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+* {
+  margin: 0%;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --primary: #1d4ed8;
+  --white: rgb(255, 255, 255);
+  --dark-navy: rgb(4, 4, 51);
+  --footer-navy: #05061c;
+  --muted-blue: #8a90b8;
+  --border-gray: #e5e7eb;
+  --text-gray: #575757;
+  --heading-dark: #0d1b2a;
+
+  /* base type scale — change here, updates everywhere */
+  --fs-h1: 80px;
+  --lh-h1: 80px;
+  --fs-h2: 56px;
+  --lh-h2: 64px;
+  --fs-h3: 44px;
+  --lh-h3: 60px;
+  --fs-h4: 44px;
+  --lh-h4: 44px;
+  --fs-h5: 20px;
+  --lh-h5: 27px;
+  --fs-p: 22px;
+  --lh-p: 24px;
+}
+body {
+  background-color: var(--white);
+  font-family: Inter;
+}
+.common-wrap {
+  max-width: 1340px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+.primary-color {
+  color: var(--primary);
+}
+.list li::marker {
+  color: var(--primary);
+}
+.bold {
+  font-weight: 700;
+}
+h1 {
+  font-size: var(--fs-h1);
+  line-height: var(--lh-h1);
+  color: var(--white);
+}
+h2 {
+  font-size: var(--fs-h2);
+  line-height: var(--lh-h2);
+}
+h3 {
+  font-size: var(--fs-h3);
+  line-height: var(--lh-h3);
+}
+h4 {
+  font-size: var(--fs-h4);
+  line-height: var(--lh-h4);
+}
+h5 {
+  font-size: var(--fs-h5);
+  line-height: var(--lh-h5);
+  color: var(--heading-dark);
+}
+p {
+  font-size: var(--fs-p);
+  line-height: var(--lh-p);
+  color: rgba(255, 255, 255, 0.9);
+}
+a {
+  text-decoration: none;
+}
+.radius {
+  border-radius: 12px;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.btn {
+  border: none;
+  border-radius: 10px;
+  background-color: var(--primary);
+  cursor: pointer;
+  border: 1px solid transparent;
+  a {
+    color: var(--white);
+  }
+  transition: all 0.5s ease-in-out;
+}
+.btn:hover {
+  background-color: transparent;
+  a {
+    color: var(--primary);
+  }
+  border: 1px solid var(--primary);
+}
+.btn-primary {
+  padding: 12px 42px;
+}
+.btn-secondary {
+  padding: 25px 62px;
+  border-radius: 10px;
+}
+.btn-outline {
+  padding: 11px 0;
+  max-width: 100%;
+  font-size: 14px;
+  line-height: 18px;
+  width: 100%;
+  border: 1px solid var(--primary);
+  background-color: transparent;
+  a {
+    color: var(--primary);
+  }
+}
+.text-center {
+  text-align: center;
+}
+/* ========================== */
