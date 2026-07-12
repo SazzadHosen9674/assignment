@@ -145,3 +145,137 @@ a {
   }
 }
 /* end */
+
+.hero {
+  width: 100%;
+  height: 87.33vh;
+  background-image:
+    linear-gradient(30deg, rgba(0, 0, 0, 0.63) 28%, rgba(0, 212, 255, 0) 30%),
+    linear-gradient(90deg, rgba(0, 0, 0, 0.75) 27%, rgba(0, 212, 255, 0) 62%),
+    url(./assets/banner.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hero-content {
+  flex-direction: column;
+  padding: 136px;
+  h1 {
+    max-width: 960px;
+  }
+  p {
+    max-width: 829px;
+    margin-top: 16px;
+  }
+  button {
+    margin-top: 278px;
+  }
+}
+
+/* END */
+.speaker-card-container {
+  margin-bottom: 136px;
+
+  flex-wrap: wrap;
+  justify-content: space-between;
+  row-gap: 36px;
+}
+.speakers-header H2 {
+  margin: 80px auto 56px auto;
+}
+.speaker-card {
+  border: 1px solid var(--border-gray);
+  transition: all 0.5s ease-in-out;
+}
+.speaker-card > img {
+  border-radius: 12px 12px 0 0;
+}
+.speaker-card:hover {
+  box-shadow: 0 5px 10px 8px gainsboro;
+}
+.speaker-content {
+  padding: 24px;
+  span {
+    color: var(--primary);
+  }
+  h5 {
+    margin: 8px 0;
+  }
+  p {
+    color: var(--text-gray);
+  }
+}
+/* ======================= */
+.pricing {
+  padding-bottom: 80px;
+}
+
+.pricing-header > p {
+  color: var(--text-gray);
+}
+.pricing-card {
+  width: 370px;
+  border: 1px solid var(--border-gray);
+}
+
+.pricing-card-hd {
+  border-bottom: 1px solid var(--border-gray);
+  padding-bottom: 20px;
+  p {
+    font-size: 13px;
+    line-height: 19px;
+    font-weight: 500;
+    color: #888888;
+  }
+  h5 {
+    margin-top: 8px;
+  }
+}
+.pricing-list ul {
+  margin: 20px 0px;
+  margin-left: 14px;
+}
+.pricing-list ul li {
+  margin: 10px 0;
+  color: #333333;
+}
+.pricing-list ul li::marker {
+  color: var(--primary);
+}
+.pricing-card {
+  padding: 32px;
+  h3 {
+    font-size: 44px;
+    line-height: 44px;
+  }
+  transition: all 0.5s ease-in-out;
+}
+.pricing-card:hover {
+  background-color: var(--heading-dark);
+  h3 {
+    color: var(--white);
+  }
+  .pricing-card-hd {
+    p span {
+      color: #93c5fd;
+    }
+    p {
+      color: rgba(255, 255, 255, 0.5);
+    }
+  }
+  .pricing-list ul li {
+    color: rgba(255, 255, 255, 0.8);
+  }
+  .btn-outline {
+    background-color: var(--primary);
+    a {
+      color: var(--white);
+    }
+  }
+}
+.pricing-card-container {
+  gap: 24px;
+  flex-wrap: wrap;
+  margin-top: 48px;
+}
