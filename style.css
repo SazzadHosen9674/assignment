@@ -130,3 +130,18 @@ a {
   text-align: center;
 }
 /* ========================== */
+.nav-bar {
+  justify-content: space-between;
+  margin: 23px auto;
+}
+.nav-link {
+  text-decoration: none;
+}
+.nav-link ul {
+  list-style: none;
+  gap: 24px;
+  a {
+    color: var(--text-gray);
+  }
+}
+/* end */

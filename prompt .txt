@@ -1,0 +1,9 @@
+আমি তোমাকে একটা image দিচ্ছি, ওখানে একটা section আছে লেখা 'Something Missing? Generate a relevant section with AI'। এটার জায়গায় একটা নতুন section বানাতে হবে। আমাকে কিছু rules দেওয়া হয়েছে, সেগুলো তোমাকে দিচ্ছি — এই section-টা DevConf 2026 থিমের সাথে relevant হতে হবে (hackathon, sponsors, FAQ এইরকম কিছু একটা), unique/creative হতে হবে, আর পেজের বাকি design-এর সাথে visually মিলতে হবে। কোনো Lorem Ipsum যাবে না।
+তুমি আমাকে একটা section বানিয়ে দাও যেটা এই rules follow করে।"
+তারপর আমি বললাম:
+
+"design ta aktu choto koro"
+"ar ami sudhu html and css diya korbo" (JS বাদ দিতে বললাম)
+"svg dew" (Figma-তে বসানোর জন্য SVG mockup চাইলাম)
+"1479 px width diya banai dew"
+
