@@ -3,7 +3,7 @@
 তারপর আমি বললাম:
 
 "design ta aktu choto koro"
-"ar ami sudhu html and css diya korbo" (JS বাদ দিতে বললাম)
+"ar ami sudhu html and css diya korbo"
 "svg dew" (Figma-তে বসানোর জন্য SVG mockup চাইলাম)
 "1479 px width diya banai dew"
 

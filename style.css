@@ -399,3 +399,55 @@ a {
 }
 
 /* ======================= */
+/* footer */
+.footer {
+  background-color: var(--footer-navy);
+  border-top: 1px solid rgb(255 255 255 / 0.08);
+  padding: 48px 0 32px 0;
+}
+.footer-top {
+  justify-content: space-between;
+  padding-bottom: 32px;
+}
+.footer-logo {
+  gap: 14px;
+  img {
+    width: 56px;
+    height: 56px;
+    border-radius: 12px;
+  }
+  span {
+    font-size: 22px;
+    line-height: 24px;
+    color: var(--white);
+  }
+}
+.footer-social {
+  gap: 16px;
+  list-style: none;
+  li a {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    border: 1px solid rgb(255 255 255 / 0.3);
+    color: var(--white);
+    font-size: 18px;
+    transition: all 0.3s ease-in-out;
+  }
+  li a:hover {
+    background-color: var(--white);
+    color: var(--dark-navy);
+  }
+}
+.footer-line {
+  border-top: 1px solid rgb(255 255 255 / 0.15);
+}
+.footer-service {
+  justify-content: space-between;
+  p {
+    color: rgb(255 255 255 / 0.6);
+    font-size: 15px;
+    line-height: 21px;
+    padding: 24px 0;
+  }
+}
