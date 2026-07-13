@@ -1,24 +1,16 @@
-আমি তোমাকে একটা image দিচ্ছি, ওখানে একটা section আছে লেখা 'Something Missing? Generate a relevant section with AI'। এটার জায়গায় একটা নতুন section বানাতে হবে। আমাকে কিছু rules দেওয়া হয়েছে, সেগুলো তোমাকে দিচ্ছি — এই section-টা DevConf 2026 থিমের সাথে relevant হতে হবে (hackathon, sponsors, FAQ এইরকম কিছু একটা), unique/creative হতে হবে, আর পেজের বাকি design-এর সাথে visually মিলতে হবে। কোনো Lorem Ipsum যাবে না।
-তুমি আমাকে একটা section বানিয়ে দাও যেটা এই rules follow করে।
-This is the only section where AI usage is expected and encouraged.
-
+Ami tomake ekta image dicchi, okhane ekta section ache lekha 'Something Missing? Generate a relevant section with AI'। Etar jaygay ekta notun section banate hobe। Amake kichu rules deya hoyeche, segulo tomake dicchi — ei section-ta DevConf 2026 theme-er shathe relevant hote hobe (hackathon, sponsors, FAQ eirokom kichu ekta), unique/creative hote hobe, ar page-er baki design-er shathe visually milte hobe। Kono Lorem Ipsum jabe na।
+Tumi amake ekta section baniye dao jeta ei rules follow kore।
+"This is the only section where AI usage is expected and encouraged.
 Replace the "Something Missing? Generate a relevant section with AI" placeholder with a brand-new section of your own idea.
-
 The section must stay relevant to the DevConf 2026 theme (e.g. Sponsors, Venue, FAQ, Newsletter Signup, Hackathon Details, Past Highlights, Job Board, etc.).
-
 Use AI (Claude, ChatGPT, or any tool) to help you ideate, design, and/or code this section.
-
 Marks will be given based on:
-
 How unique and creative the section idea is
 How well it fits visually and thematically with the rest of the page
 How effectively you used AI (clarity and quality of your prompting)
-You must submit the prompt(s) you used to generate this section along with your submission (see Submission Format below).
-"
-তারপর আমি বললাম:
-
-"design ta aktu choto koro"
+You must submit the prompt(s) you used to generate this section along with your submission (see Submission Format below)."
+Tarpor ami bollam:
+"design ta ektu choto koro"
 "ar ami sudhu html and css diya korbo"
-"svg dew" (Figma-তে বসানোর জন্য SVG mockup চাইলাম)
+"svg dew" (Figma-te bosanor jonno SVG mockup chailam)
 "1479 px width diya banai dew"
-
